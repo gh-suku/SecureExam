@@ -41,6 +41,12 @@ function Profile ({ user }) {
     })
   }
 
+  // const manuallyHandel =(e)=>{
+  //   setFormData({
+  //     <div styleName={styles.format}></div>
+  //   })
+  // }
+
   const handleSubmit = async (e) => {
     e.preventDefault()
     setLoading(true)
